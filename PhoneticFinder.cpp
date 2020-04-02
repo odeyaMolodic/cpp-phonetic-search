@@ -24,7 +24,7 @@ namespace phonetic {
             word_from_text.clear();
         } 
 
-        throw out_of_range("There is no word : " + W + " in the text");
+        throw out_of_range("There is no word : " + word + " in the text");
         return "";
     }
 
