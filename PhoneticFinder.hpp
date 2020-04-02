@@ -1,3 +1,4 @@
+#include <string>
 
 namespace phonetic {
     string find (string text, string word);
