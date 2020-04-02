@@ -1,4 +1,6 @@
 
 namespace phonetic {
-    string find (string text, string s);
+    string find (string text, string word);
+    bool WordCompare(string temp , string word);
+    bool Spellcheck(char A, char B);
 };
